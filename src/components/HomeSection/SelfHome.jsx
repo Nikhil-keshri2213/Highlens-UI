@@ -37,7 +37,7 @@ const SelfHome = () => {
                   src={BlackBG}
                   alt="BlackBG"
                   loading="lazy"
-                  className="h-[120px] object-cover rounded-xl shadow-md mt-2 ml-3 border border-white"
+                  className="h-[100px] object-cover rounded-xl shadow-md mt-2 ml-3 border border-white"
                 />
               </CardItem>
 
@@ -52,18 +52,19 @@ const SelfHome = () => {
       </div>
 
       {/* Arrow Image - Positioned between cards */}
-      <img 
-        src={arrow1} 
-        alt="Arrow" 
-        className="hidden md:block absolute left-[48%] top-[52%] -translate-x-1/2 -translate-y-1/2 w-[200px] md:w-[350px] pointer-events-none z-10"
-      />
-      <img 
-        src={arrow2} 
-        alt="Arrow" 
-        className="hidden md:block absolute left-[88%] top-[58%] -translate-x-1/2 -translate-y-1/2 w-[200px] md:w-[350px] pointer-events-none z-10"
-      />
+
       {/* Right Card - Content */}
-      <div className="w-full md:w-[50%] border border-white/30 border-dashed p-5 rounded-2xl">
+      <div className="w-full md:w-[50%]">
+        <img
+          src={arrow1}
+          alt="Arrow"
+          className="hidden md:block absolute left-[47%] top-[53%] w-[200px] md:w-[300px] z-5"
+        />
+        <img
+          src={arrow2}
+          alt="Arrow"
+          className="hidden md:block absolute left-[78%] top-[57%] w-[200px] md:w-[300px] z-5"
+        />
         <div className="relative p-8 rounded-2xl bg-black/30 backdrop-blur-sm border border-white/30 border-dashed h-[450px] flex flex-col justify-between overflow-hidden">
           <div className="absolute inset-0 bg-linear-to-br from-slate-500/30 via-transparent to-gray-500/40 pointer-events-none rounded-2xl" />
 

@@ -1,12 +1,11 @@
-import React from 'react'
-import Beams from '../background/Beams';
-import HeaderBanner from '../components/HeaderBanner';
-import SelfHome from '../components/HomeSection/SelfHome';
+import React from "react";
+import Beams from "../background/Beams";
+import HeaderBanner from "../components/HomeSection/HeaderBanner";
+import SelfHome from "../components/HomeSection/SelfHome";
 
 const Home = () => {
   return (
     <div className="relative w-full h-screen overflow-y-auto">
-
       {/* FIXED BACKGROUND */}
       <div className="fixed inset-0 -z-10">
         <Beams
@@ -26,9 +25,8 @@ const Home = () => {
         <HeaderBanner />
         <SelfHome />
       </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
