@@ -1,32 +1,28 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { byPrefixAndName } from "@awesome.me/kit-KIT_CODE/icons";
+import { RiInstagramFill } from "react-icons/ri";
+import { FaFacebook } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="w-full h-[150px] border border-white/30 bg-black/10 backdrop-blur-md flex flex-col justify-between py-4">
+    <div className="w-full h-[200px] border-t border-white/30 bg-black/20 backdrop-blur-md flex flex-col items-center justify-center gap-6 py-6">
+
       {/* Social Icons */}
-      <div className="flex justify-center gap-6 text-xl text-white">
-        <FontAwesomeIcon
-          icon={byPrefixAndName.fab["instagram"]}
-          className="hover:text-pink-400 transition duration-300 cursor-pointer"
-        />
-        <FontAwesomeIcon
-          icon={byPrefixAndName.fab["facebook"]}
-          className="hover:text-blue-500 transition duration-300 cursor-pointer"
-        />
-        <FontAwesomeIcon
-          icon={byPrefixAndName.fab["twitter"]}
-          className="hover:text-sky-400 transition duration-300 cursor-pointer"
-        />
+      <div className="flex justify-center gap-10 text-4xl text-white">
+        {[RiInstagramFill, FaFacebook, FaSquareXTwitter].map((Icon, idx) => (
+          <Icon
+            key={idx}
+            className="cursor-pointer"
+          />
+        ))}
       </div>
 
       {/* Footer Links */}
-      <div className="flex flex-wrap gap-2 justify-center items-end">
+      <div className="flex flex-wrap gap-4 justify-center items-center text-center">
         {["Need Help", "Career", "FAQs", "Contacts", "Privacy Policy"].map(
           (item) => (
             <span
               key={item}
-              className="px-5 py-2 text-sm font-semibold uppercase tracking-wider text-gray-200 hover:bg-white/20 hover:text-white transition-all duration-300 cursor-default"
+              className="px-6 py-2 text-base font-semibold uppercase tracking-widest text-gray-200 hover:bg-white/20 hover:text-white transition-all duration-300 cursor-pointer"
             >
               {item}
             </span>
