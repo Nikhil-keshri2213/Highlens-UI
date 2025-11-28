@@ -2,6 +2,7 @@ import React from "react";
 import Beams from "../background/Beams";
 import HeaderBanner from "../components/HomeSection/HeaderBanner";
 import SelfHome from "../components/HomeSection/SelfHome";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <div className="relative z-10 flex flex-col">
         <HeaderBanner />
         <SelfHome />
+        <Footer />
       </div>
     </div>
   );
