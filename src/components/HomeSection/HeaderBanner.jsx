@@ -39,9 +39,9 @@ const HeaderBanner = () => {
       {/* Center Content */}
       <div className="flex flex-col items-center justify-center text-center gap-6 grow">
         <div>
-          <div className="text-[50px] text-white font-extrabold">HIGH-LENS</div>
+          <div className="text-[50px] text-white font-extrabold">HIGHLENS</div>
 
-          <div className="text-[20px] text-white font-semibold max-w-[800px]">
+          <div className="text-[20px] text-white font-light max-w-[800px] font-serif">
             A Unified Digital Ecosystem for Photography Services, Learning &
             Marketplace
           </div>
@@ -61,7 +61,7 @@ const HeaderBanner = () => {
           <button
             className="text-[20px] w-[180px] h-[45px] border border-white/30 rounded-full 
           text-white/60 bg-white/10 backdrop-blur-md font-semibold 
-          transition-all duration-300 hover:scale-105
+          transition duration-300 hover:scale-105 hover:bg-linear-to-br hover:from-[#355C7D] hover:via-[#6C5B7B] hover:to-[#C06C84] hover:text-white
           hover:shadow-[0_0_25px_rgba(255,255,255,1)]"
           >
             Learn More

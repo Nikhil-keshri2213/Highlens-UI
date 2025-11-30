@@ -1,0 +1,40 @@
+{
+    "project": "HighLens",
+    "features": [
+        {
+            "id": 1,
+            "name": "Blog",
+            "image": "https://cdn.dribbble.com/userupload/37064301/file/original-2a86d69659018f1086b804bc477eba93.png?resize=1024x929&vertical=center",
+            "link": "/blog",
+            "description": "The Blog section is a warm, expressive space where photographers can publish articles, share techniques and tell the stories behind their shots. It presents work in a gallery-style layout that makes browsing both effortless and inspiring. Contributors can post tutorials, personal essays and behind-the-scenes notes that spark conversation. Readers discover new approaches, trends and creative prompts with every scroll. The Blog fosters reflection and learning, turning each post into a source of inspiration for the community. It’s a creative corner where ideas and artistry meet."
+        },
+        {
+            "id": 2,
+            "name": "Marketplace",
+            "image": "https://images.unsplash.com/photo-1745848038191-e68edfe9d335?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "link": "/marketplace",
+            "description": "The Marketplace offers a reliable, user-friendly place to buy and sell photography gear, from cameras and lenses to essential accessories. Items are organised with clear categories and filters so users can find what they need without fuss. Sellers can list equipment confidently while buyers—whether beginners or professionals—can compare options and prices easily. The platform emphasizes secure transactions and transparent listings to build trust. It supports both new and second-hand gear so everyone can access suitable equipment. Overall, it’s a practical trading hub tailored for photographers."
+        },
+        {
+            "id": 3,
+            "name": "Learn",
+            "image": "https://images.unsplash.com/photo-1613012954623-c455a036f53b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "link": "/learn",
+            "description": "The Learn section provides a structured pathway for photographers at every level to improve their craft. It features curated courses, concise study guides and practical examples that focus on real-world results. Beginners can master camera basics while advanced users explore lighting, composition and post-production techniques. Lessons are straightforward, project-based and designed to be immediately useful. Regular updates and community-driven content keep the material fresh and relevant. In short, Learn helps users develop tangible skills with clear, progressive guidance."
+        },
+        {
+            "id": 4,
+            "name": "Build",
+            "image": "https://images.unsplash.com/photo-1487537708572-3c850b5e856e?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "link": "/build",
+            "description": "Build is a creative toolkit where users can edit, enhance and compose images with ease. It offers both intuitive, beginner-friendly tools and more advanced controls for detailed adjustments. Creators can apply presets, refine colours, assemble collages or experiment with AI-assisted enhancements in one place. The interface is designed to keep the workflow smooth so ideas move quickly from concept to finished piece. Export and sharing options make it simple to showcase new work across the platform. Build encourages experimentation and helps photographers bring their visions to life."
+        },
+        {
+            "id": 5,
+            "name": "Community",
+            "image": "https://petapixel.com/assets/uploads/2022/05/photographers-with-cameras-1536x806.jpg",
+            "link": "/community",
+            "description": "The Community space connects photographers so they can share work, exchange feedback and build meaningful relationships. It functions like a social hub where users follow creators, view portfolios and engage through comments and likes. Regular challenges, curated showcases and topical groups encourage interaction and collective growth. The environment is intended to be supportive and inspiring, helping talent get noticed and develop. Community-driven discovery fosters collaborations and real-world opportunities. Ultimately, it’s a place for photographers to grow together and celebrate each other’s work."
+        }
+    ]
+}
