@@ -28,8 +28,8 @@ const IntroSection = () => {
               "
             >
               <CardItem translateZ={70}>
-                <div className="text-xl sm:text-2xl font-bold text-white leading-tight">
-                  <TfiQuoteLeft className="text-2xl sm:text-3xl inline-block mr-1" />
+                <div className="text-xl sm:text-xl font-bold text-white leading-tight text-center">
+                  <TfiQuoteLeft className="text-2xl sm:text-3xl inline-block mr-2 mb-5" />
                   SEE THINGS BEYOND LIMITS
                 </div>
               </CardItem>

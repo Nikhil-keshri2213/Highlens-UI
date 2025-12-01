@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className="relative w-full h-screen overflow-y-auto">
       {/* FIXED BACKGROUND */}
-      <div className="fixed inset-0 -z-10">
+      {/* <div className="fixed inset-0 -z-10">
         <Beams
           beamWidth={2}
           beamHeight={20}
@@ -21,7 +21,7 @@ const Home = () => {
           scale={0.3}
           rotation={30}
         />
-      </div>
+      </div> */}
 
       {/* SCROLLING CONTENT */}
       <div className="relative z-10 flex flex-col opacity-0 animate-fadeIn">

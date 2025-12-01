@@ -25,14 +25,14 @@ const LandingPage = () => {
 
         <div className="flex gap-4 sm:gap-6 text-sm sm:text-base text-white">
           <p
-            className="cursor-pointer hover:scale-105 transition duration-300"
+            className="cursor-pointer hover:scale-110"
             onClick={() => navigate("/")}
           >
             Home
           </p>
 
           <p
-            className="cursor-pointer hover:scale-105 transition duration-300"
+            className="cursor-pointer hover:scale-110"
             onClick={() => navigate("/docs")}
           >
             Docs
