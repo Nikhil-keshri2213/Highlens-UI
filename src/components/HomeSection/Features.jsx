@@ -5,7 +5,7 @@ import data from "../../data/info.json";
 
 const Features = () => {
   return (
-    <div className="w-full flex flex-col gap-2">
+    <div className="w-full flex flex-col gap-2 mt-20 md:mt-0">
       {data.features.map((item, index) => {
         const isReverse = index % 2 !== 0;
 
