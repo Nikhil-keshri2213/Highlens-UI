@@ -2,7 +2,7 @@ import React from "react";
 import { RiCameraLensFill } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
 
-const HeaderBanner = () => {
+const LandingPage = () => {
   const navigate = useNavigate();
 
   return (
@@ -17,24 +17,22 @@ const HeaderBanner = () => {
           px-4 sm:px-6 mt-6 sm:mt-10 
           transition-all duration-300 
           hover:shadow-[0_0_20px_rgba(255,255,255,0.8)]
-          hover:bg-white/20
-        "
-      >
-        <div className="font-bold text-lg text-white flex items-center gap-2">
+          hover:bg-white/20">
+        <div className="font-bold text-lg text-white flex items-center gap-2 hover:scale-110 transition duration-300">
           <RiCameraLensFill className="text-white text-[26px] sm:text-[30px] transition-transform duration-500 hover:rotate-90" />
           <span className="text-base sm:text-lg">HIGHLENS</span>
         </div>
 
         <div className="flex gap-4 sm:gap-6 text-sm sm:text-base text-white">
           <p
-            className="cursor-pointer hover:font-bold"
+            className="cursor-pointer hover:scale-105 transition duration-300"
             onClick={() => navigate("/")}
           >
             Home
           </p>
 
           <p
-            className="cursor-pointer hover:font-bold"
+            className="cursor-pointer hover:scale-105 transition duration-300"
             onClick={() => navigate("/docs")}
           >
             Docs
@@ -83,4 +81,4 @@ const HeaderBanner = () => {
   );
 };
 
-export default HeaderBanner;
+export default LandingPage;

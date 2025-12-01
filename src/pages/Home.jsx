@@ -1,7 +1,7 @@
 import React from "react";
 import Beams from "../background/Beams";
-import HeaderBanner from "../components/HomeSection/HeaderBanner";
-import SelfHome from "../components/HomeSection/SelfHome";
+import LandingPage from "../components/HomeSection/LandingPage";
+import IntroSection from "../components/HomeSection/IntroSection";
 import Features from "../components/HomeSection/Features";
 import Footer from "../components/Footer/Footer";
 import "../style/home.css"
@@ -25,8 +25,8 @@ const Home = () => {
 
       {/* SCROLLING CONTENT */}
       <div className="relative z-10 flex flex-col opacity-0 animate-fadeIn">
-        <HeaderBanner />
-        <SelfHome />
+        <LandingPage />
+        <IntroSection />
         <Features />
         <Footer />
       </div>

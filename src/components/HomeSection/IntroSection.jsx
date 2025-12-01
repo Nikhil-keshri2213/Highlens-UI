@@ -5,7 +5,7 @@ import BlackBG from "../../assets/black.png";
 import arrow1 from "../../assets/arrow1.png";
 import arrow2 from "../../assets/arrow2.png";
 
-const SelfHome = () => {
+const IntroSection = () => {
   return (
     <div className="w-full flex flex-col md:flex-row items-center justify-around p-6 md:p-8 gap-10 md:gap-20">
 
@@ -64,10 +64,8 @@ const SelfHome = () => {
                   className="
                     w-full md:w-[50%] py-2 bg-white text-black text-sm rounded-full 
                     mt-10 ml-18 md:ml-50 font-bold cursor-pointer 
-                    hover:shadow-[0_0_25px_rgba(255,255,255,1)] 
-                    transition duration-300
-                  "
-                >
+                    hover:shadow-[0_0_25px_rgba(200,200,200,1)] 
+                    transition duration-300">
                   Explore Now
                 </button>
               </CardItem>
@@ -167,4 +165,4 @@ const SelfHome = () => {
   );
 };
 
-export default SelfHome;
+export default IntroSection;

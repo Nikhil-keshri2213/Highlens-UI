@@ -31,7 +31,7 @@ const Footer = () => {
               href={item.url}
               target="_blank"
               rel="noopener noreferrer">
-              <Icon className="cursor-pointer hover:text-white" />
+              <Icon className="cursor-pointer hover:text-white transition-all duration-300" />
             </a>
           );
         })}
@@ -43,7 +43,7 @@ const Footer = () => {
           (item) => (
             <span
               key={item}
-              className="px-6 py-2 text-sm font-light text-gray-200 hover:bg-white/20 hover:text-white transition-all duration-300 cursor-pointer rounded-md"
+              className="px-6 py-2 text-sm font-light text-gray-200 hover:bg-white/20 hover:text-white transition duration-300 cursor-pointer rounded-md"
             >
               {item}
             </span>
