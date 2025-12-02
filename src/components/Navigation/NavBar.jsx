@@ -13,7 +13,7 @@ const NavBar = () => {
           w-full max-w-[750px]
           border border-white/30 rounded-full bg-white/10 backdrop-blur-md 
           flex items-center justify-between 
-          px-4 sm:px-6 mt-4
+          px-4 sm:px-6 mt-6 sm:mt-10
           transition-all duration-300 
           hover:shadow-[0_0_20px_rgba(255,255,255,0.8)]
           hover:bg-white/20">
