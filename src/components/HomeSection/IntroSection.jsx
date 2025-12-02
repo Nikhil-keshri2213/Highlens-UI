@@ -90,7 +90,7 @@ const IntroSection = () => {
             alt="Arrow"
             className="
                 absolute left-[5px] top-40 
-                w-[120px] sm:w-[160px] md:w-[200px] lg:w-[250px]
+                w-[120px] sm:w-40 md:w-[200px] lg:w-[250px]
                 opacity-90
                 pointer-events-none"/>
           <img
@@ -98,7 +98,7 @@ const IntroSection = () => {
             alt="Arrow"
             className="
               absolute right-[5px] top-[180px] md:top-[200px]
-              w-[120px] sm:w-[160px] md:w-[200px] lg:w-[250px]
+              w-[120px] sm:w-40 md:w-[200px] lg:w-[250px]
               opacity-90
               pointer-events-none"/>
 
