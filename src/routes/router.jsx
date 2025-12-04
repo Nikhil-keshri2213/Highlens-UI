@@ -3,7 +3,7 @@ import Layout from "../Layout";
 import Home from "../pages/Home";
 import Docs from "../pages/Docs";
 import About from "../pages/About";
-// import Features from "../pages/Features";
+import Blog_App from "../highlens-blogs/Blog_App";
 
 export const router = createBrowserRouter([
   {
@@ -12,16 +12,20 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />
+        element: <Home />,
       },
       {
         path: "docs",
-        element: <Docs />
+        element: <Docs />,
       },
       {
         path: "about",
-        element: <About />
+        element: <About />,
       },
-    ]
-  }
+      {
+        path: "blogs",
+        element: <Blog_App />,
+      },
+    ],
+  },
 ]);

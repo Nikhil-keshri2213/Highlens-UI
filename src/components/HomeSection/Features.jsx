@@ -2,8 +2,11 @@ import React from "react";
 import { ImQuotesLeft } from "react-icons/im";
 import { MdArrowOutward } from "react-icons/md";
 import data from "../../data/info.json";
+import { useNavigate } from "react-router-dom";
 
 const Features = () => {
+
+  const navigate = useNavigate();
   return (
     <div className="w-full flex flex-col gap-10 mt-20 md:mt-0">
       {data.features.map((item, index) => {
@@ -29,10 +32,8 @@ const Features = () => {
             <div className="flex-1">
               <h1 className="text-white text-4xl font-bold font-serif tracking-wide mb-6">
                 {item.name}.
-                <a href={item.link}>
                   <MdArrowOutward
-                    className="inline-flex text-4xl ml-2 text-white hover:scale-110 transition-all duration-300"/>
-                </a>
+                    className="inline-flex text-4xl ml-2 text-white hover:scale-110 transition-all duration-300" onClick={navigate(item.link)}/>
               </h1>
 
               {/* Quote + Paragraph */}

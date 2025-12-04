@@ -5,7 +5,7 @@ import LightRays from "./background/LightRays";
 
 function Layout() {
   const location = useLocation();
-  const hideLayout = location.pathname === "/"; // no navbar/bg on home
+  const hideLayout = location.pathname === "/" || location.pathname === "/blogs"; // no navbar/bg on home
 
   return (
     <div className="w-full min-h-screen relative overflow-hidden">
