@@ -1,0 +1,53 @@
+{
+  "project": "HighLens-Blog",
+  
+  "users": [
+    {
+      "user_id": "user_001",
+      "name": "Nikhil Keshri",
+      "username": "nikhil_1325",
+      "email": "nikhil@example.com",
+      "account_id": "Ox312Nikhil1325",
+      "profile_image": "",
+      "bio": "Nature and wildlife photographer.",
+      "created_at": "2025-01-10T09:00:00Z"
+    }
+  ],
+
+  "posts": [
+    {
+      "post_id": "post_001",
+      "user_id": "user_001",
+
+      "title": "Nature Photography",
+      "cover_image": "https://cdn.dribbble.com/userupload/37064301/file/original-2a86d69659018f1086b804bc477eba93.png?resize=1024x929&vertical=center",
+
+      "content": {
+        "description": "The Blog section is a warm, expressive space where photographers can publish articles, share techniques and tell the stories behind their shots...",
+        "sections": []
+      },
+
+      "camera_details": {
+        "camera_model": "",
+        "camera_brand": "",
+        "lens": "",
+        "settings": {
+          "aperture": "",
+          "shutter_speed": "",
+          "iso": ""
+        }
+      },
+
+      "tags": ["photography", "nature", "creative-blog"],
+
+      "timestamps": {
+        "created_at": "2025-12-03T13:25:00Z",
+        "updated_at": null
+      },
+
+      "likes": 0,
+      "comments": [],
+      "status": "published"
+    }
+  ]
+}
