@@ -1,5 +1,9 @@
 const Tag = ({ label }) => {
-  return <span className="tag">{label}</span>;
+  return (
+    <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">
+      {label}
+    </span>
+  );
 };
 
 export default Tag;

@@ -2,10 +2,10 @@ const CameraDetails = ({ camera }) => {
   if (!camera) return null;
 
   return (
-    <div className="camera-section">
-      <h3>Camera Information</h3>
+    <div className="bg-gray-100 p-4 rounded-xl mt-6">
+      <h3 className="text-xl font-semibold mb-3">Camera Information</h3>
 
-      <ul>
+      <ul className="space-y-2 text-gray-700">
         <li><strong>Model:</strong> {camera.camera_model || "N/A"}</li>
         <li><strong>Brand:</strong> {camera.camera_brand || "N/A"}</li>
         <li><strong>Lens:</strong> {camera.lens || "N/A"}</li>

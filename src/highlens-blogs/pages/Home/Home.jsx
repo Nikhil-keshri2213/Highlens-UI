@@ -3,7 +3,7 @@ import PostList from "../components/posts/PostList";
 
 const Home = () => {
   return (
-    <div>
+    <div className="pt-6">
       <PostList posts={db.posts} users={db.users} />
     </div>
   );

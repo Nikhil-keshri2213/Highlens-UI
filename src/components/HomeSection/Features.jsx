@@ -33,7 +33,7 @@ const Features = () => {
               <h1 className="text-white text-4xl font-bold font-serif tracking-wide mb-6">
                 {item.name}.
                   <MdArrowOutward
-                    className="inline-flex text-4xl ml-2 text-white hover:scale-110 transition-all duration-300" onClick={navigate(item.link)}/>
+                    className="inline-flex text-4xl ml-2 text-white hover:scale-110 transition-all duration-300" onClick={()=>navigate(item.link)}/>
               </h1>
 
               {/* Quote + Paragraph */}
