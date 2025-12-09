@@ -6,8 +6,8 @@ const UserCard = ({ user }) => {
       <UserAvatar user={user} />
 
       <div>
-        <h2 className="text-lg font-semibold">{user.name}</h2>
-        <p className="text-gray-500 text-sm">{user.bio || "No bio available."}</p>
+        <h2 className="text-lg font-semibold">{user?.name}</h2>
+        <p className="text-gray-500 text-sm">{user?.bio || "No bio available."}</p>
       </div>
     </div>
   );
