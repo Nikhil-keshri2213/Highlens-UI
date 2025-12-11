@@ -142,7 +142,7 @@ const IntroSection = () => {
                       text-sm font-semibold uppercase tracking-wider text-gray-200 
                       hover:bg-linear-to-br hover:from-[#355C7D] hover:via-[#6C5B7B] hover:to-[#C06C84] 
                       hover:text-white hover:shadow-[0_0_15px_rgba(255,255,255,1)] 
-                      transition duration-300 cursor-default
+                      transition duration-300 cursor-pointer
                     "
                   >
                     {item}

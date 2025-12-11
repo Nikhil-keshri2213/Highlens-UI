@@ -9,9 +9,9 @@ const Features = () => {
   const navigate = useNavigate();
   return (
     <div className="w-full flex flex-col gap-10 mt-20 md:mt-0">
+      <div className="text-center text-white text-[40px] font-serif font-semibold">Features</div>
       {data.features.map((item, index) => {
         const isReverse = index % 2 !== 0;
-
         return (
           <div
             key={index}
